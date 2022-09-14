@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+/* dashboard header */
+.header-tools__item li{
+  color: #6B7280;
+}
+
+.btn-active > svg{
+  color: #fff !important;
+}
+
+.btn-active{
+  background-color: #0981C3 !important;
+  color: #fff !important;
+}
+
+.header-tool-toggle{
+  color: #0981C3; 
+}
+
+.header-tool-toggle label{
+  margin-left: 20px;
+  margin-right: 60px; 
+}
+
+.peer:checked ~ .peer-checked{
+  background-color: red !important;
+}
+
+.header-tools__item{
+  /* width: 223px; */
+}
+
+.launch-site-list li{
+  cursor: pointer;
+}
